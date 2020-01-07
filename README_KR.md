@@ -4,7 +4,7 @@ aELU 함수는 아직 공식적으로 검증되지 않았습니다.
 
 이 함수는 Sunnguk Cha님의 ReaLU 함수에 영감을 받아 만들게되었으며, [이곳](https://github.com/sunggukcha/xor) 에서 볼 수 있듯이,
 
-단일 퍼셉트론과 활성함수인 ReaLU만으로 XOR문제를 해결하였습니다. 
+단일 퍼셉트론과 커스터마이징된 활성함수인 ReaLU만으로 XOR문제를 해결하였습니다. 
 * * *
 
 # 소개
