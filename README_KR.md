@@ -60,7 +60,7 @@ def aELU(z, threshold, alpha):
         return alpha * (np.exp(threshold-z) - 1) 
         # If you want more speed you can replace like this 
         # 
-        # (z * 0.001) ~= (alpha * np.exp(threshold-z))
+        # (-z * 0.001) ~= (alpha * np.exp(threshold-z))
         # this is almost same in the graph 
     
     return z if z >= 0 else alpha * (np.exp(z) - 1)
