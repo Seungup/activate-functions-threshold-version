@@ -28,13 +28,13 @@ The threshold gives the end point of the ELU function, and after the threshold,
 a last curve in the form of 
 
 * * *
-{exp(threshold - input) - 1} is made smooth. 
+**{ exp ( threshold - input ) - 1 }** is made smooth. 
 * * *
 
 If function take the following form, 
 
 * * *
-'exp(threshold - input)' before the last curve in the function.
+**exp ( threshold - input )** before the last curve in the function.
 * * *
 
 It is placed on the x-axis not under the x-axis. 
@@ -43,7 +43,7 @@ And, it's going to be like [Leaky ReLU](https://arxiv.org/abs/1505.00853)'s Char
 In this case, it is also possible to eliminate the calculation of the exponential function and multiply it by 
 
 * * *
-(-1 * input * 0.001)
+**( -1 * input * 0.001 )**
 * * *
 
 because the characteristics of the Leaky ReLU and the exponential function are similar. If so, it omits the complex calculation process of the exponential function, resulting in similar performance but faster calculation speeds.
