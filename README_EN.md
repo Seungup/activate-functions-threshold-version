@@ -36,7 +36,6 @@ And this is why can still possible to avoid the 'Dying ReLU' phenomenon. The rea
 
 
 ![Results](./image/aELU.jpeg)
-![Results](./image/aELU_Func.jpeg)
 The function is implemented as Python like this 
 
 ```python
