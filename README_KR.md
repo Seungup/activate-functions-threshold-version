@@ -51,7 +51,6 @@ ELU 함수에 마지막에 임계값과 추가적인 함수를 넣는 방식으�
 
 
 ![Results](./image/aELU.jpeg)
-![Results](./image/aELU_Func.jpeg)
 다음 함수를 파이썬으로 옮기면 다음과 같아집니다.
 
 ```python
