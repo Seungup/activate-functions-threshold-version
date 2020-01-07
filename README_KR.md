@@ -28,7 +28,7 @@ ReaLU함수와 동일하게 넣은 aELU를 제안하고자 합니다. 해당 함
 * * *
 
 # aELU : almost Exponential Linear Unit
-## 다 자세하게.
+##  자세하게.
 
 ELU 함수에 마지막에 임계값과 추가적인 함수를 넣는 방식으로 aELU는 설계되어있습니다.
 
