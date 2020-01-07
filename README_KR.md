@@ -17,7 +17,7 @@ ReLU는 좋은 함수임에는 틀림이 없습니다.
 "음의 범위에 입력값은 ReLU 함수의 기울기도 0이기 때문에, 일단 뉴런이 음이 되면, 회복될 가능성은 낮습니다. 
 이렇게 되어버린 뉴런들은 입력을 구별하는데 아무런 역할을 하지 않으며 본질적으로 쓸모없습니다. 
 이경우 0값이 되지 않는 Leaky ReLU 및 ELU도 시도해 볼 수 있는 좋은 대안입니다. 
-해당 함수들은 음의 범위에서 경사가 약간 발생하여 문제가 발생하지 않습니다." -[](https://medium.com/@danqing/a-practical-guide-to-relu-b83ca804f1f7)
+해당 함수들은 음의 범위에서 경사가 약간 발생하여 문제가 발생하지 않습니다." -[참고](https://medium.com/@danqing/a-practical-guide-to-relu-b83ca804f1f7)
 
 그러므로, 제 생각에 Sungguk Cha님의 ReaLU함수에서 ReaLU와 동일하거나 비슷한 현상이 올 가능성이 있다고 생각합니다.
 만약, ReLU의 문제점이 ReaLU함수에 동일하게 나타난다면, 
