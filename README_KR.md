@@ -43,7 +43,7 @@ ELU 함수에 마지막에 임계값과 추가적인 함수를 넣는 방식으�
 만약에 임계함수 뒤에 오는 함수를 다음과 같은 형식으로 변경한다면 
 
 * * *
-![non-1](https://github.com/Seungup/activate-functions-threshold-version/blob/master/image/54190054-FCB8-4695-99C6-5671B3BA83E9.jpeg)
+![non-1](https://github.com/Seungup/activate-functions-threshold-version/blob/master/image/8334D7B1-4556-48D2-B088-1B5C3D9D2CBA.jpeg)
 * * *
 
 해당 형식은 곡선이 X좌표보다 위에 존재하게 되며, 연속함과 동시에 [Leaky ReLU](https://arxiv.org/abs/1505.00853)의 특성과 유사해 지기 때문에
