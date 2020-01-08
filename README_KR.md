@@ -49,7 +49,7 @@ ELU 함수에 마지막에 임계값과 추가적인 함수를 넣는 방식으�
 해당 형식은 곡선이 X좌표보다 위에 존재하게 되며, 연속함과 동시에 [Leaky ReLU](https://arxiv.org/abs/1505.00853)의 특성과 유사해 지기 때문에
 
 * * *
-**α × ℮^( threshold - ζ ) ≈ -ζ × 0.001** 라고도 할 수 있습니다.
+**α × ℮^( threshold - ζ ) ≈** ![z](https://github.com/Seungup/activate-functions-threshold-version/blob/master/image/C8DB1155-2979-4C2C-8732-1B642E80A5FC.jpeg) 라고도 할 수 있습니다.
 * * *
 
 **하지만 그대로 사용하면 X좌표 위에 존재하기 때문에 z의 출력이 0보다 작을때와 동일하게 음수로 나타내기 위해서 -1를 곱해줍시다.**
